@@ -23,7 +23,7 @@ class CurrenciesService: Service() {
                 response ->
                 if(response.code() == HTTP_OK){
                     response.body()?.also{ currencyList ->
-                        CurrencyConverterLiveData.currenciesiveData.postValue(currencyList)
+                        CurrencyConverterLiveData.currenciesLiveData.postValue(currencyList)
                     }
                 }
             }

@@ -5,6 +5,6 @@ import br.edu.ifsp.scl.sdm.currencyconverter.model.domain.ConversionResult
 import br.edu.ifsp.scl.sdm.currencyconverter.model.domain.CurrencyList
 
 object CurrencyConverterLiveData {
-    val currenciesiveData = MutableLiveData<CurrencyList>()
+    val currenciesLiveData = MutableLiveData<CurrencyList>()
     val conversionResultLiveData = MutableLiveData<ConversionResult>()
 }
